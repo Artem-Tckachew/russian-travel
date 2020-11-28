@@ -1,0 +1,9 @@
+.header__lang-links{
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 18px;
+  list-style-type: none;
+  align-content: flex-end;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,24 @@
+.cover{
+  height: 740px;
+  max-width: 1184px;
+  display: grid;
+  margin: auto;
+}
+@media screen and (max-width: 1280px){
+  .cover{
+    height: 640px;
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .cover{
+    height: 480px;
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px){
+  .cover{
+    height: 200px;
+    max-width: 320px;
+  }
+}

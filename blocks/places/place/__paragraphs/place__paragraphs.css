@@ -1,0 +1,6 @@
+.place__paragraphs{
+  display: grid;
+  align-content: baseline;
+  grid-row-gap: 26px;
+  max-width: 484px;
+}

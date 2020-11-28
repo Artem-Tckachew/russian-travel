@@ -1,0 +1,23 @@
+.cover__text{
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  position: relative;
+  display: grid;
+  text-decoration: none;
+  align-content: center;
+  justify-items: center;
+  grid-template-areas: "cover__title"
+                       "cover__subtitle";
+}
+.cover__text:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #2A2C2F;
+    opacity: .3;
+}
+.cover__text:hover:before{
+  opacity: .8
+};

@@ -1,0 +1,12 @@
+.header{
+  padding: 28px 48px 0;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px){
+  .header{
+    padding: 16px 16px 0;
+  }
+}
