@@ -12,20 +12,20 @@
                        "place__image place__paragraph";
 
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
   .place{
     -ms-grid-columns: 440px 440px;
     grid-template-columns: 440px 440px;
   }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .place{
     -ms-grid-columns: 340px 28px 352px;
     grid-template-columns: 340px 352px;
     grid-column-gap: 28px;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .place{
     -ms-grid-columns: 320px;
     grid-template-columns: 320px;

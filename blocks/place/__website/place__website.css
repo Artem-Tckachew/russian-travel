@@ -5,7 +5,7 @@
   grid-area: place__website;
   margin: auto auto 0 0;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .place__website{
     display: none;
   }

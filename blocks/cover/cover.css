@@ -1,25 +1,25 @@
 .cover{
   height: 740px;
-  max-width: 1184px;
+  width: 1184px;
   display: -ms-grid;
   display: grid;
   margin: auto;
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
   .cover{
     height: 640px;
-    max-width: 1024px;
+    width: 1024px;
   }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .cover{
     height: 480px;
-    max-width: 768px;
+    width: 768px;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .cover{
     height: 200px;
-    max-width: 320px;
+    width: 320px;
   }
 }
