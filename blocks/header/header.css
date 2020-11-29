@@ -1,8 +1,11 @@
 .header{
   padding: 28px 48px 0;
   height: 100%;
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 @media screen and (max-width: 768px){

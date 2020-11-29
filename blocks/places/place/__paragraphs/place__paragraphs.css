@@ -1,5 +1,7 @@
 .place__paragraphs{
+  display: -ms-grid;
   display: grid;
+  -ms-flex-line-pack: baseline;
   align-content: baseline;
   grid-row-gap: 26px;
   max-width: 484px;

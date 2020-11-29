@@ -1,8 +1,10 @@
 .header__lang-links{
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   grid-column-gap: 18px;
   list-style-type: none;
+  -ms-flex-line-pack: end;
   align-content: flex-end;
   margin: 0;
   padding: 0;

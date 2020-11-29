@@ -2,8 +2,10 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   position: relative;
+  display: -ms-grid;
   display: grid;
   text-decoration: none;
+  -ms-flex-line-pack: center;
   align-content: center;
   justify-items: center;
   grid-template-areas: "cover__title"
