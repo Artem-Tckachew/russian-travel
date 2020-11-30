@@ -1,6 +1,7 @@
 .cover{
   height: 740px;
   width: 1184px;
+  max-width: -webkit-fill-available;
   display: -ms-grid;
   display: grid;
   margin: auto;
