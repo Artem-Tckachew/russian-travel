@@ -1,8 +1,5 @@
 .lead__image{
-  background-image: url(../../../images/lead-polka.png);
-  background-size: cover;
   width: 984px;
-  max-width: -webkit-fill-available;
   height: 615px;
   margin-top: 64px;
 }

@@ -11,4 +11,4 @@ __________________________
 
 __________________________
 Ссылка на проект:
-https://github.com/Artem-Tckachew/russian-travel
+https://artem-tckachew.github.io/russian-travel/
